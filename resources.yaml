@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: gcr.io/gitops-cloudbuild-argo/example-app:COMMIT_SHA
+        image: gcr.io/gitops-cloudbuild-argo/example-app:v2
         ports:
         - containerPort: 8080
 ---
