@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: example-app
-        image: gcr.io/gitops-cloudbuild-argo/gcr.io/gitops-cloudbuild-argo/example-app:ebd0cfea4df5
+        image: gcr.io/gitops-cloudbuild-argo/gcr.io/gitops-cloudbuild-argo/example-app:9084a24
         ports:
         - containerPort: 8080
 ---
